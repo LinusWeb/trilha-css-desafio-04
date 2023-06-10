@@ -1,0 +1,260 @@
+* {
+    padding: 0;
+    margin: 0;
+    vertical-align: baseline;
+    list-style: none;
+    box-sizing: border-box;
+    border: 0;
+}
+
+@font-face {
+    font-family: 'Luckiest Guy';
+    src: url('../fonts/LuckiestGuy-Regular.ttf');
+}
+
+body {
+    background: url(../images/bg-center.svg) no-repeat top center;
+    background-color: #404eed;  
+}
+
+header {
+    width: 100%;
+    height: 625px;
+    margin: 0 auto;
+    background: url(../images/bg-left.svg) no-repeat bottom left, url(../images/bg-rigth.svg) no-repeat bottom right;
+    background-size: 25%;
+}
+
+header .header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1200px;
+    height: 625px;
+    margin: 0 auto;
+
+}
+
+header .header-content .header-content__menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+}
+
+header .header-content .header-content__menu > nav > ul {
+    list-style: none;
+}
+
+header .header-content .header-content__menu > nav > ul > li {
+    display: inline-block;
+    padding: 15px;
+}
+
+header .header-content .header-content__menu > nav > ul > li > a {
+    text-decoration: none;
+    font-family: 'Open Sans';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    color: #ffffff;
+} 
+
+header .header-content .header-content__menu > nav > ul > li > a:hover {
+    text-decoration: underline;
+}
+
+header img {
+    width: 124px;
+}
+
+header button {
+    width: 65px;
+    height: 38px;
+    border-radius: 28px;
+    background-color: #ffffff;
+}
+
+.header-content .header-content__main > h1  {
+    width: 857px;
+    font-family: 'Luckiest Guy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 55px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #ffffff;   
+    margin-top: 85px;
+    margin-bottom: 25px;
+}
+
+.header-content .header-content__main > p {
+    width: 857px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;    
+    color: #FFFFFF;
+}
+
+.header-content .header-content__buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    width: 857px;
+    margin-top: 25px;
+}
+
+.header-content .header-content__buttons .btn-baixar {
+    width: 275px;
+    height: 55px;
+    font-size: 18px;
+    text-align: center;
+    color: #000000;  
+    background-color: #ffffff;  
+}
+
+.header-content .header-content__buttons .btn-discord {
+    width: 360px;
+    height: 55px;
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #23272a;
+}
+
+
+
+
+
+.main_content_item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+    padding: 100px 0px;
+}
+
+.main_content_item_white {
+    background-color: #ffffff;
+}
+
+.main_content_item_gray {
+    background-color: #f0f0f0;
+}
+
+.main_content_item > div > h1 {
+    width: 329px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 54px;  
+    color: #23272A;
+    margin-bottom: 25px;
+}
+
+.main_content_item > div > p {
+    width: 348px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #23272A;
+}
+
+.main_content_item_bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0px;
+}
+
+.main_content_item_bottom > h1 {
+    width: 608px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 54px;  
+    text-align: center;
+    color: #23272A;
+    margin-bottom: 25px;
+}
+
+.main_content_item_bottom > p {
+    width: 802px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #23272A;
+}
+
+
+footer {
+    background-color: #23272a;
+}
+
+footer .footer-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    border-bottom: 1px solid #5865f2;
+}
+
+footer .footer-content > div > ul > li {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+footer .footer-content > div > ul > .title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #5865f2;
+    margin-bottom: 20px;
+}
+
+footer .footer-content .icons {
+    display: flex;
+    flex-direction: row;
+}
+
+footer .footer-content .icons > figure  {
+    padding-right: 15px;
+}
+
+footer .footer-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+footer .footer-logo > figure > img {
+    width: 124px;
+}
